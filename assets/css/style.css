@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: red;
     background-color: black;
@@ -10,8 +15,48 @@ header {
     text-decoration: underline;
 }
 
+/* choices div */
+
+#choices {
+    height: 350px;
+    width: 100%;
+}
+
+#player-choice,
+#computer-choice {
+    width: 50%;
+    height: 100%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 30px;
+    float: left;
+}
+
 /* players choices */
 
 #player-options {
     font-size: 50px;
+    text-align: center;
+}
+
+.space {
+    letter-spacing: 90px;
+    margin-left: 20px;
+}
+
+.choice-name {
+    margin-right: 20px;
+}
+
+/* Scores */
+
+#score {
+    font-size: 50px;
+    float: left;
+    border: 1px dashed white;
+}
+
+#player-score,
+#computer-score {
+    text-decoration: white underline;
 }
