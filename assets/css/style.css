@@ -13,6 +13,16 @@ body {
 header {
     text-align: center;
     text-decoration: underline;
+    font-size: 150%;
+}
+
+#rules-button {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    background-color: inherit;
+    color: white;
+    font-size: 120%;
 }
 
 /* choices div */
@@ -32,20 +42,67 @@ header {
     float: left;
 }
 
+/* Rules */
+
+#rules {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    background: white 70%;
+}
+
+#rules-content {
+    background-color: inherit;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid white;
+    width: 80%;
+}
+
+#close {
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* players choices */
 
 #player-options {
     font-size: 50px;
     text-align: center;
+    margin-top: 10px;
 }
 
-.space {
-    letter-spacing: 90px;
-    margin-left: 20px;
+.box {
+    width: 20%;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 
-.choice-name {
-    margin-right: 20px;
+#play {
+    font-size: 70%;
+    background-color: inherit;
+    color: white;
+}
+
+.selected {
+    background-color: red;
+    color: black;
 }
 
 /* Scores */

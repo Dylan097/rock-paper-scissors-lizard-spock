@@ -13,23 +13,39 @@
     <header>
         <h1>Rock Paper Scissors Lizard Spock</h1>
         <p>The complex Big Bang Theory game!</p>
+        <button id="rules-button">Rules</button>
     </header>
     <div id="choices">
         <div id="player-choice"></div>
         <div id="computer-choice"></div>
     </div>
+    <div id="rules">
+        <div id="rules-content">
+            <span id="close">x</span>
+            <h2>RPSLS Rules</h2>
+            <p>Select one of the options</p>
+            <p>Click play to confirm your option</p>
+            <p>Once you click play, the computer will select one at random</p>
+            <h2>What wins? (According to Sheldon)</h2>
+            <p>Scissors cuts paper</p>
+            <p>Paper covers rock</p>
+            <p>Rock crushes lizard</p>
+            <p>Lizard poisons Spock</p>
+            <p>Spock smashes scissors</p>
+            <p>Scissors decapitates lizard</p>
+            <p>Lizard eats paper</p>
+            <p>Paper disproves Spock</p>
+            <p>Spock vaporizes rock</p>
+            <p>And as it always has, rock crushes scissors</p>
+        </div>
+    </div>
     <div id="player-options">
-        <span id="rock" class="space"><i class="fa-solid fa-hand-back-fist"></i></span>
-        <span id="paper" class="space"><i class="fa-solid fa-hand"></i></span>
-        <span id="scissors" class="space"><i class="fa-solid fa-hand-scissors"></i></span>
-        <span id="lizard" class="space"><i class="fa-solid fa-hand-lizard"></i></span>
-        <span id="spock" class="space"><i class="fa-solid fa-hand-spock"></i></span><br>
-        <span class="choice-name">Rock</span>
-        <span class="choice-name">Paper</span>
-        <span class="choice-name">Scissors</span>
-        <span class="choice-name">Lizard</span>
-        <span class="choice-name">Spock</span><br>
-        <button>Play</button>
+        <span id="rock" class="box"><i class="fa-solid fa-hand-back-fist"></i>Rock</span>
+        <span id="paper" class="box"><i class="fa-solid fa-hand"></i>Paper</span>
+        <span id="scissors" class="box"><i class="fa-solid fa-hand-scissors"></i>Scissors</span>
+        <span id="lizard" class="box"><i class="fa-solid fa-hand-lizard"></i>Lizard</span>
+        <span id="spock" class="box"><i class="fa-solid fa-hand-spock"></i>Spock</span><br>
+        <button id="play">Play</button>
     </div>
     <div id="score">
         <div id="player-score">
