@@ -15,7 +15,9 @@ document.getElementById('close').addEventListener('click', function () {
 let options = document.getElementsByClassName('box');
 
 // Adding the selected class to the option selected, and removing it from the last one
-
+/**
+ * Shows the player what they selected
+ */
 function selected() {
     for (let i = 0; i < options.length; i++) {
         if (options[i].classList.contains('selected')) {
