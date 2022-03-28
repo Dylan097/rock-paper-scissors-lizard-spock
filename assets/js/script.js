@@ -30,3 +30,68 @@ function selected() {
 for (let i = 0; i < options.length; i++) {
     options[i].addEventListener('click', selected);
 }
+
+
+/**
+ * Checks what the player selected
+ */
+function checkSelection() {
+
+}
+
+/**
+ * Checks who won, the player or the computer, or if it was a draw
+ */
+function checkWinner() {
+
+}
+
+/**
+ * Increases the players score if they won
+ */
+function increasePlayerScore() {
+
+}
+
+/**
+ * Increases the computer score if they won
+ */
+function increaseComputerScore() {
+
+}
+
+// Option that was selected
+/**
+ * Rock beats lizard and scissors
+ */
+function rock() {
+
+}
+
+/**
+ * Paper beats rock and Spock
+ */
+function paper() {
+
+}
+
+/**
+ * Scissors beats paper and lizard
+ */
+function scissors() {
+
+}
+
+/**
+ * Lizard beats Spock and paper
+ */
+function lizard() {
+
+}
+
+/**
+ * Spock beats scissors and rock
+ */
+function spock() {
+
+}
