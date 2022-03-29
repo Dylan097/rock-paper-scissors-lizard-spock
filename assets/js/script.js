@@ -59,8 +59,8 @@ function checkWinner(selection) {
     let rockIcon = `<i class="fa-solid fa-hand-back-fist"></i>`;
     let paperIcon = `<i class="fa-solid fa-hand"></i>`;
     let scissorsIcon = `<i class="fa-solid fa-hand-scissors"></i>`;
-    let lizardIcon = `<i class="fa-solid fa-hand-scissors"></i>`;
-    let spockIcon = `<i class="fa-solid fa-hand-scissors"></i>`;
+    let lizardIcon = `<i class="fa-solid fa-hand-lizard"></i>`;
+    let spockIcon = `<i class="fa-solid fa-hand-spock"></i>`;
     if (cpu === 'rock') {
         cpuSelection.innerHTML = rockIcon;
     } else if (cpu === 'paper') {
