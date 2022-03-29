@@ -100,6 +100,10 @@ header {
     box-sizing: border-box;
 }
 
+.box:hover {
+    cursor: pointer;
+}
+
 #play {
     font-size: 70%;
     background-color: inherit;
