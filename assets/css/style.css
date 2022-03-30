@@ -124,7 +124,8 @@ header {
 }
 
 #player-score,
-#computer-score {
+#computer-score,
+#tied-score {
     text-decoration: white underline;
 }
 
