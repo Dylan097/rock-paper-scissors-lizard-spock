@@ -101,6 +101,14 @@ function increasePlayerScore() {
 }
 
 /**
+ * Increases the tied score each time the player and the computer 
+ * select the same thing.
+ */
+function increaseTiedScore() {
+    let oldScore = parseInt(document.getElementById('tied').innerText);
+    document.getElementById('tied').innerHTML = ++oldScore;
+}
+/**
  * Increases the computer score if they won
  */
 function increaseComputerScore() {
@@ -117,6 +125,7 @@ function rock(computer) {
         increasePlayerScore();
     } else if (computer === 'rock') {
         alert("It's a draw!");
+        increaseTiedScore();
     } else {
         increaseComputerScore();
     }
@@ -130,6 +139,7 @@ function paper(computer) {
         increasePlayerScore();
     } else if (computer === 'paper') {
         alert("It's a draw!");
+        increaseTiedScore();
     } else {
         increaseComputerScore();
     }
@@ -143,6 +153,7 @@ function scissors(computer) {
         increasePlayerScore();
     } else if (computer === 'scissors') {
         alert("It's a draw!");
+        increaseTiedScore();
     } else {
         increaseComputerScore();
     }
@@ -156,6 +167,7 @@ function lizard(computer) {
         increasePlayerScore();
     } else if (computer === 'lizard') {
         alert("It's a draw!");
+        increaseTiedScore();
     } else {
         increaseComputerScore();
     }
@@ -169,6 +181,7 @@ function spock(computer) {
         increasePlayerScore();
     } else if (computer === 'spock') {
         alert("It's a draw!");
+        increaseTiedScore();
     } else {
         increaseComputerScore();
     }
