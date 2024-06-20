@@ -124,7 +124,6 @@ function rock(computer) {
     if (computer === 'lizard' || computer === 'scissors') {
         increasePlayerScore();
     } else if (computer === 'rock') {
-        alert("It's a draw!");
         increaseTiedScore();
     } else {
         increaseComputerScore();
@@ -138,7 +137,6 @@ function paper(computer) {
     if (computer === 'rock' || computer === 'spock') {
         increasePlayerScore();
     } else if (computer === 'paper') {
-        alert("It's a draw!");
         increaseTiedScore();
     } else {
         increaseComputerScore();
@@ -152,7 +150,6 @@ function scissors(computer) {
     if (computer === 'paper' || computer === 'lizard') {
         increasePlayerScore();
     } else if (computer === 'scissors') {
-        alert("It's a draw!");
         increaseTiedScore();
     } else {
         increaseComputerScore();
@@ -166,7 +163,6 @@ function lizard(computer) {
     if (computer === 'paper' || computer === 'spock') {
         increasePlayerScore();
     } else if (computer === 'lizard') {
-        alert("It's a draw!");
         increaseTiedScore();
     } else {
         increaseComputerScore();
@@ -180,7 +176,6 @@ function spock(computer) {
     if (computer === 'scissors' || computer === 'rock') {
         increasePlayerScore();
     } else if (computer === 'spock') {
-        alert("It's a draw!");
         increaseTiedScore();
     } else {
         increaseComputerScore();
